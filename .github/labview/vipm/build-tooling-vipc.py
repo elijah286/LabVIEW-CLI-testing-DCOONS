@@ -54,7 +54,7 @@ DEFAULT_MANIFEST = HERE / "ci-tooling.packages.json"
 DEFAULT_DEFAULTS = HERE / "ci-tooling.defaults.json"
 DEFAULT_OUT = HERE / "ci-tooling.vipc"
 
-_USER_AGENT = "LabVIEW-CLI-testing VIPC generator"
+_USER_AGENT = "LabVIEW-CLI-testing-DCOONS VIPC generator"
 
 # Public VIPM repository indexes (the same ones install-vipc.ps1 resolves from).
 # Each is an INI-style feed of `[Package <name>-<version>]` sections exposing

@@ -543,7 +543,7 @@ _TEMPLATE = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VI Analyzer Report — LabVIEW-CLI-testing</title>
+<title>VI Analyzer Report — LabVIEW-CLI-testing-DCOONS</title>
 <script>window.LVCI=__VIA_HEADER_CFG__;</script>
 <script src="__LVCI_HEADER_SRC__" defer></script>
 <style>

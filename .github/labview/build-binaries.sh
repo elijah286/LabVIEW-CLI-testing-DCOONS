@@ -384,7 +384,7 @@ ts = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
 html = (
     "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\">"
     "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">"
-    "<title>Builds (Linux) - LabVIEW-CLI-testing</title>"
+    "<title>Builds (Linux) - LabVIEW-CLI-testing-DCOONS</title>"
     "<script>window.LVCI={context:'builds-report',repo:'%s',pagesUrl:'../../..',sha:'%s',short:'%s',platform:'linux',rawUrl:'builds.log'};</script>"
     "<script src=\"../../../lvci-header.js\" defer></script>"
     "<style>:root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--fg:#e6edf3;--fg-muted:#8b949e}"

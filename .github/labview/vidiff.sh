@@ -167,7 +167,7 @@ cat << 'HTML'
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VIDiff — LabVIEW-CLI-testing</title>
+<title>VIDiff — LabVIEW-CLI-testing-DCOONS</title>
 <style>
   :root{--bg:#0d1117;--surface:#161b22;--border:#30363d;--fg:#e6edf3;--fg-muted:#8b949e;--link:#58a6ff;--row:#21262d;--hover:#1c2128}
   @media(prefers-color-scheme:light){:root{--bg:#fff;--surface:#f6f8fa;--border:#d0d7de;--fg:#1f2328;--fg-muted:#57606a;--link:#0969da;--row:#eaeef2;--hover:#f3f4f6}}
@@ -188,7 +188,7 @@ cat << 'HTML'
 </style>
 </head>
 <body>
-<h1>VIDiff — LabVIEW-CLI-testing</h1>
+<h1>VIDiff — LabVIEW-CLI-testing-DCOONS</h1>
 HTML
 echo "<div class=\"sub\">${PROCESSED} file(s) compared &nbsp;|&nbsp; ${ERRORS} error(s)</div>"
 if [ "${#PROCESSED_ENTRIES[@]}" -eq 0 ]; then
