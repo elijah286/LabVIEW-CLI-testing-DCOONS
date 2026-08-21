@@ -187,7 +187,7 @@ $Html = @"
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Mass Compile — LabVIEW-CLI-testing</title>
+  <title>Mass Compile — LabVIEW-CLI-testing-DCOONS</title>
   <script>$HdrCfg</script>
   <script src="../../lvci-header.js" defer></script>
   <style>
@@ -204,7 +204,7 @@ $Html = @"
 <body>
   <div class="wrap">
     <div class="card">
-      <h1>Mass Compile — LabVIEW-CLI-testing</h1>
+      <h1>Mass Compile — LabVIEW-CLI-testing-DCOONS</h1>
       <span class="badge">$StatusLabel</span>
       <div class="meta">
         <span>Date: $ReportTs</span>

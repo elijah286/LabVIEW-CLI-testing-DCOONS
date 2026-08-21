@@ -170,7 +170,7 @@ def build_report(summary: dict, args) -> str:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Builds - LabVIEW-CLI-testing</title>
+  <title>Builds - LabVIEW-CLI-testing-DCOONS</title>
   <script>%(hdr_cfg)s</script>
   <script src="%(pages_up)s/lvci-header.js" defer></script>
   <style>

@@ -40,7 +40,7 @@ $VipmInstallerUrl = if ($Env:VIPM_INSTALLER_URL) { $Env:VIPM_INSTALLER_URL } els
 # repo, so we run the installs from a tiny working dir whose origin remote points
 # at it. Override with VIPM_PUBLIC_REPO_URL (the build workflow passes the actual
 # building repo's clone URL so forks use their own public repo).
-$PublicRepoUrl    = if ($Env:VIPM_PUBLIC_REPO_URL) { $Env:VIPM_PUBLIC_REPO_URL } else { 'https://github.com/danielcoons/LabVIEW-CLI-testing.git' }
+$PublicRepoUrl    = if ($Env:VIPM_PUBLIC_REPO_URL) { $Env:VIPM_PUBLIC_REPO_URL } else { 'https://github.com/elijah286/LabVIEW-CLI-testing-DCOONS.git' }
 
 # Run VIPM non-interactively so headless installs need no prompts. We deliberately
 # do NOT set VIPM_COMMUNITY_EDITION here: forcing Community Edition mode turns ON
@@ -529,7 +529,7 @@ function Save-PublicVipmPackage($Package, [string] $OutDir) {
     $url = Resolve-PublicVipmPackageUrl $Package
     if (-not $url) { throw "No downloadable package URL found for $($Package.Id) from $($Package.Repository)." }
     Write-Host "  Downloading $($Package.Id) from $url"
-    Invoke-WebRequest -Uri $url -OutFile $outFile -UseBasicParsing -MaximumRedirection 10 -TimeoutSec 300 -Headers @{ 'User-Agent' = 'LabVIEW-CLI-testing VIPM downloader' } | Out-Null
+    Invoke-WebRequest -Uri $url -OutFile $outFile -UseBasicParsing -MaximumRedirection 10 -TimeoutSec 300 -Headers @{ 'User-Agent' = 'LabVIEW-CLI-testing-DCOONS VIPM downloader' } | Out-Null
     $bytes = Get-Content -LiteralPath $outFile -Encoding Byte -TotalCount 4
     if ($bytes.Count -lt 4 -or $bytes[0] -ne 0x50 -or $bytes[1] -ne 0x4b) {
         throw "Downloaded file for $($Package.Id) is not a VIP/ZIP archive: $outFile"

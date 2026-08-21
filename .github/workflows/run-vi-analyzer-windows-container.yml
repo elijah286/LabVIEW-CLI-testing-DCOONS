@@ -37,7 +37,7 @@ on:
 env:
   # Custom CI image (built by build-labview-image.yml). GHCR repository names MUST be
   # lowercase, but github.event.repository.name preserves the repo's original case
-  # (e.g. "LabVIEW-CLI-testing"), which `docker pull` rejects ("repository name
+  # (e.g. "LabVIEW-CLI-testing-DCOONS"), which `docker pull` rejects ("repository name
   # must be lowercase") — so no worker ever ran and the dashboard's Win Worker column
   # stayed empty. The image ref is therefore resolved + lowercased at runtime by the
   # "Resolve container image name" step below (-> $GITHUB_ENV); declared empty here so
