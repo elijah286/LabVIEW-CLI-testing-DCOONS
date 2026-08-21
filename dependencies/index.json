@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "elijah286/LabVIEW-CLI-testing-DCOONS",
-  "sha": "9ebeedd7a96b579a773e57e718225f422765e609",
+  "sha": "3b289c6030de137010af74b0010f1aa363927f0a",
   "revisions": [
+    {
+      "sha": "3b289c6030de137010af74b0010f1aa363927f0a",
+      "short": "3b289c6",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Elijah Kerry",
+      "date": "2026-08-21T21:00:06Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "9ebeedd7a96b579a773e57e718225f422765e609",
       "short": "9ebeedd",
@@ -355,30 +364,6 @@
     "hasDragonList": false
   },
   "vipc": [
-    {
-      "path": ".github/labview/antidoc/antidoc.vipc",
-      "role": "capability",
-      "capability": "antidoc",
-      "tooling": false,
-      "configured": true,
-      "monitored": true,
-      "monitorOn": [
-        "windows"
-      ],
-      "locked": false,
-      "packages": [
-        "graphbuilder-2.3.0.7",
-        "jki_lib_state_machine-2024.0.3.23",
-        "jki_rsc_toolkits_palette-1.1-1",
-        "wiresmith_technology_lib_g_cli-3.0.1.98",
-        "wovalab_lib_antidoc-3.3.1.879",
-        "wovalab_lib_antidoc_add_on_labview_project_documentation-3.2.0.358",
-        "wovalab_lib_antidoc_add_on_labview_toolkit_documentation-3.0.0.77",
-        "wovalab_lib_antidoc_cli-3.4.0.126",
-        "wovalab_lib_asciidoc_for_labview-1.12.1.492"
-      ],
-      "error": ""
-    },
     {
       "path": ".github/labview/vipm/ci-tooling.vipc",
       "role": "core",
