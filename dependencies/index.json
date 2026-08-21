@@ -1,0 +1,574 @@
+{
+  "schema": 1,
+  "repo": "elijah286/LabVIEW-CLI-testing-DCOONS",
+  "sha": "9ebeedd7a96b579a773e57e718225f422765e609",
+  "revisions": [
+    {
+      "sha": "9ebeedd7a96b579a773e57e718225f422765e609",
+      "short": "9ebeedd",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Elijah Kerry",
+      "date": "2026-08-21T15:47:54Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "c06bd5a45e219f09028196a041c1d3f091c2174c",
+      "short": "c06bd5a",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Daniel Coons",
+      "date": "2026-08-19T23:31:14Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "006c4c3a9eab81aeefd89ad2afd37f9433b44082",
+      "short": "006c4c3",
+      "message": "ci: adopt LabVIEW CI tooling v4.15.5 (full update)",
+      "author": "github-actions[bot]",
+      "date": "2026-08-19T21:47:27Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "222cab72485e4ade96afb7c2a0135488458a4379",
+      "short": "222cab7",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Daniel Coons",
+      "date": "2026-08-18T19:27:14Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "69eaaae0b0e871ddcd1a560fa64fcecfde94b0ff",
+      "short": "69eaaae",
+      "message": "Merge pull request #6 from danielcoons/labview-ci/reconfigure-30652599402",
+      "author": "Daniel Coons",
+      "date": "2026-07-31T17:50:06Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "014569884201fa73e5990bc70b8e4e32f662580d",
+      "short": "0145698",
+      "message": "ci: reconfigure LabVIEW CI settings",
+      "author": "github-actions[bot]",
+      "date": "2026-07-31T17:48:21Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "a205d724969c92acedfdda097cdf206ed83a53ba",
+      "short": "a205d72",
+      "message": "Merge pull request #5 from danielcoons/labview-ci/reconfigure-30650054522",
+      "author": "Daniel Coons",
+      "date": "2026-07-31T17:10:17Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "e1637da748dd10f04bea5f4cb78f336d930921c3",
+      "short": "e1637da",
+      "message": "ci: reconfigure LabVIEW CI settings",
+      "author": "github-actions[bot]",
+      "date": "2026-07-31T17:09:38Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "fceb09c085af37438f7824b4749d7130200e9262",
+      "short": "fceb09c",
+      "message": "Merge branch 'main' of https://github.com/danielcoons/LabVIEW-CLI-testing",
+      "author": "daniel-coons",
+      "date": "2026-07-31T17:08:42Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "9621f5b9aae2103c92c1a28da107c26a6e804338",
+      "short": "9621f5b",
+      "message": "custom vi analyzer config",
+      "author": "daniel-coons",
+      "date": "2026-07-31T17:08:28Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "1181b087c5083fd8122d718ab4548ea72ca688db",
+      "short": "1181b08",
+      "message": "Merge pull request #4 from danielcoons/labview-ci/reconfigure-30649731587",
+      "author": "Daniel Coons",
+      "date": "2026-07-31T17:05:21Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "dde1ec326f2bc30d008cdb78624ddad05b899fb5",
+      "short": "dde1ec3",
+      "message": "ci: reconfigure LabVIEW CI settings",
+      "author": "github-actions[bot]",
+      "date": "2026-07-31T17:04:44Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "5a2d3321418d3ef15f3d7be218e8a5c7dc20b7b2",
+      "short": "5a2d332",
+      "message": "including the dragon file which i forgot",
+      "author": "daniel-coons",
+      "date": "2026-07-31T17:02:58Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "a06f762d966d52337ac81e0513f6f83bca63deea",
+      "short": "a06f762",
+      "message": "adding lunit unit test for easy verification",
+      "author": "daniel-coons",
+      "date": "2026-07-31T16:55:27Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "9bf3ad4ad53a7ebbced533b062e4d6265990207c",
+      "short": "9bf3ad4",
+      "message": "updated main to add an a vip dependence and cleaned up the ui",
+      "author": "daniel-coons",
+      "date": "2026-07-31T16:45:41Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "b5916b8537ef1baed50fe39b0d7bbca467bbd37a",
+      "short": "b5916b8",
+      "message": "Refactor VI Server configuration and LabVIEW launch; trying again via my",
+      "author": "Daniel Coons",
+      "date": "2026-07-31T13:50:19Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "0cf86c32a893a5d747d2dc754af824a0016df9a0",
+      "short": "0cf86c3",
+      "message": "still trying to get headless labview going first",
+      "author": "daniel-coons",
+      "date": "2026-07-31T12:51:57Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "373b1b63a7833f4003e5bd7149ace6d5ff432728",
+      "short": "373b1b6",
+      "message": "turns out copy and paste on phone is bad idea",
+      "author": "daniel-coons",
+      "date": "2026-07-31T12:19:06Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "fba6ea5d47a5868878a3cf2d6af809518a43ed08",
+      "short": "fba6ea5",
+      "message": "Fix indentation and remove duplicate continue-on-error",
+      "author": "Daniel Coons",
+      "date": "2026-07-31T11:02:39Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "a1b7dc517989aa13fccadef3cc3e3b5b342e3f49",
+      "short": "a1b7dc5",
+      "message": "Update SBOM generation script for Windows container",
+      "author": "Daniel Coons",
+      "date": "2026-07-31T11:00:23Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "c5cee0ea4ad574b62b1af209f24df0ca6757af89",
+      "short": "c5cee0e",
+      "message": "Refactor SBOM generation script for clarity and robustness",
+      "author": "Daniel Coons",
+      "date": "2026-07-31T02:38:47Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "10de5c7db0380873d45937aed5b407b37947da3d",
+      "short": "10de5c7",
+      "message": "fixed the call to sbom generation",
+      "author": "daniel-coons",
+      "date": "2026-07-31T02:11:00Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "c710739490062448aa2e0edf8ef005ca0a3a5ced",
+      "short": "c710739",
+      "message": "Merge branch 'main' of https://github.com/danielcoons/LabVIEW-CLI-testing",
+      "author": "daniel-coons",
+      "date": "2026-07-31T01:29:41Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "612b7403482b977424a786f86da3a1b3777cf152",
+      "short": "612b740",
+      "message": "modify the call to the sbom action",
+      "author": "daniel-coons",
+      "date": "2026-07-31T01:25:33Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "f1915ba77f9f798fa2e40aeca76c6c49e1971243",
+      "short": "f1915ba",
+      "message": "Merge pull request #3 from danielcoons/labview-ci/reconfigure-30595265175",
+      "author": "Daniel Coons",
+      "date": "2026-07-31T01:20:40Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "35c5a802ced700979c9d4033f4a45d0eebcfd8f0",
+      "short": "35c5a80",
+      "message": "ci: reconfigure LabVIEW CI settings",
+      "author": "github-actions[bot]",
+      "date": "2026-07-31T01:02:47Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "ad45ade897cb28821f9625e1384c01a119c47ac1",
+      "short": "ad45ade",
+      "message": "updating what i think continues to make this local",
+      "author": "daniel-coons",
+      "date": "2026-07-31T00:56:05Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "9efe7b222f99d668214eebcc40a5672032a1a8ca",
+      "short": "9efe7b2",
+      "message": "trigger actions",
+      "author": "daniel-coons",
+      "date": "2026-07-30T22:03:30Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "e5ddc1015876f2beba4bcc6b2e2eea08a5006186",
+      "short": "e5ddc10",
+      "message": "maybe this works, maybe not",
+      "author": "daniel-coons",
+      "date": "2026-07-30T22:02:13Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "2086fbb846b9057a5a238ca29a66eb81bd386fa6",
+      "short": "2086fbb",
+      "message": "updated main ui a teensy bit to kick off stuff",
+      "author": "daniel-coons",
+      "date": "2026-07-30T21:10:53Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "205a356f75a99434c9a40271d202ddc5ab99979c",
+      "short": "205a356",
+      "message": "getting rid of the files i forgot to exclude before i set up the gitignore",
+      "author": "daniel-coons",
+      "date": "2026-07-30T21:05:18Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "e0af583f5ede8bd2b5069e308adff69a79bcf3d8",
+      "short": "e0af583",
+      "message": "workflow additions to include sbom",
+      "author": "daniel-coons",
+      "date": "2026-07-30T21:04:19Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "24fafd3314c9d4c718fed09617ccd8a0e999a3c4",
+      "short": "24fafd3",
+      "message": "gitignore",
+      "author": "daniel-coons",
+      "date": "2026-07-30T20:38:58Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "4182a5291fb6f4454e457b9a013cbfbb52ab4ef4",
+      "short": "4182a52",
+      "message": "qmh demo code",
+      "author": "daniel-coons",
+      "date": "2026-07-30T20:00:49Z",
+      "project": true,
+      "dep_only": false
+    },
+    {
+      "sha": "f291f431a2f68f1e73bcc7623719857538168524",
+      "short": "f291f43",
+      "message": "Merge pull request #2 from danielcoons/labview-ci/reconfigure-30576915071",
+      "author": "Daniel Coons",
+      "date": "2026-07-30T19:57:55Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "d2b30c468db3e083d80fdbf2aafa4a010c2b6067",
+      "short": "d2b30c4",
+      "message": "ci: reconfigure LabVIEW CI settings",
+      "author": "github-actions[bot]",
+      "date": "2026-07-30T19:55:36Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "62a549e8096f170faf9b7d535e4cc6dca3983ea7",
+      "short": "62a549e",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Daniel Coons",
+      "date": "2026-07-30T19:51:24Z",
+      "project": false,
+      "dep_only": false
+    },
+    {
+      "sha": "6a79bb169b76e976936bbc6edd4875cc7b2eb083",
+      "short": "6a79bb1",
+      "message": "Initial commit",
+      "author": "Daniel Coons",
+      "date": "2026-07-30T19:43:11Z",
+      "project": false,
+      "dep_only": false
+    }
+  ],
+  "config": {
+    "use": "",
+    "actions": {},
+    "vipc": [],
+    "dragon": [],
+    "hasVipcList": false,
+    "hasDragonList": false
+  },
+  "vipc": [
+    {
+      "path": ".github/labview/antidoc/antidoc.vipc",
+      "role": "capability",
+      "capability": "antidoc",
+      "tooling": false,
+      "configured": true,
+      "monitored": true,
+      "monitorOn": [
+        "windows"
+      ],
+      "locked": false,
+      "packages": [
+        "graphbuilder-2.3.0.7",
+        "jki_lib_state_machine-2024.0.3.23",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "wiresmith_technology_lib_g_cli-3.0.1.98",
+        "wovalab_lib_antidoc-3.3.1.879",
+        "wovalab_lib_antidoc_add_on_labview_project_documentation-3.2.0.358",
+        "wovalab_lib_antidoc_add_on_labview_toolkit_documentation-3.0.0.77",
+        "wovalab_lib_antidoc_cli-3.4.0.126",
+        "wovalab_lib_asciidoc_for_labview-1.12.1.492"
+      ],
+      "error": ""
+    },
+    {
+      "path": ".github/labview/vipm/ci-tooling.vipc",
+      "role": "core",
+      "capability": "",
+      "tooling": true,
+      "configured": true,
+      "monitored": true,
+      "monitorOn": [
+        "windows",
+        "linux"
+      ],
+      "locked": true,
+      "packages": [
+        "astemes_lib_lunit-2.0.13.6",
+        "astemes_lib_lunit_cli-1.6.1.23",
+        "astemes_lib_lunit_coverage_analysis_add_on-1.0.0.2",
+        "astemes_lib_lunit_global_fixture_add_on-1.0.5.4",
+        "astemes_lib_lunit_parameterized_add_on-1.1.10.8",
+        "astemes_lib_lunit_test_inheritance_add_on-1.0.5.4",
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "felipefoz_lib_lv_rainbow_terminal-1.1.1.5",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_lib_state_machine-2024.0.3.23",
+        "jki_rsc_toolkits_palette-1.1-1",
+        "labview_open_source_lib_epoch_datetime-1.3.0.8",
+        "labview_open_source_project_lib_labview_open_source_palette-1.0.2.7",
+        "labview_open_source_project_lib_openuri-1.4.0.13",
+        "lvos_lib_caraya_cli_extension-2.0.0.7",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_simple_xml-1.0.0.4",
+        "ni_lib_utf_junit_report-1.0.1.43",
+        "oglib_array-6.0.1.20",
+        "oglib_error-6.0.0.26",
+        "oglib_file-6.0.2.28",
+        "oglib_lvdata-6.0.0.45",
+        "oglib_string-6.0.2.35",
+        "pnr_lib_caraya_junit_for_azure_pipelines-1.2.0.11",
+        "pnr_lib_junit_xml-1.0.0.4",
+        "sas_workshops_lib_lunit_for_g_cli-1.2.1.85",
+        "wiresmith_technology_lib_g_cli-3.0.1.98"
+      ],
+      "error": ""
+    }
+  ],
+  "nipm": [
+    {
+      "name": "LabVIEW",
+      "source": "NI Package Manager",
+      "labview": true,
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "details": "LabVIEW runtime and development packages from the NI feeds."
+    },
+    {
+      "name": "VI Analyzer support",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-viawin-labview-support"
+        ],
+        "linux": [
+          "ni-vialin-labview-support"
+        ]
+      },
+      "platforms": [
+        "windows",
+        "linux"
+      ],
+      "details": "NI VI Analyzer support package used by the analyzer runners."
+    },
+    {
+      "name": "NI Unit Test Framework",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-utf-labview-support"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "NI UTF support package used by the Windows unit-test runner."
+    },
+    {
+      "name": "JKI Dragon",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "jki-dragon"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "JKI Dragon dependency-management tooling installed from the LabVIEW 2026 NI Package Manager feed."
+    },
+    {
+      "name": "VI Package Manager",
+      "source": "NI Package Manager",
+      "packages": {
+        "windows": [
+          "ni-vipm"
+        ]
+      },
+      "platforms": [
+        "windows"
+      ],
+      "details": "NI-published Windows VIPM package that enables VIPC application during worker builds. Linux installs VIPM from the native Debian package during its worker build."
+    }
+  ],
+  "dragon": {
+    "available": true,
+    "column": "windows",
+    "ready": false,
+    "health": "",
+    "manifest_version": "",
+    "files": [
+      {
+        "source_file": "src/QMH Demo.dragon",
+        "dependencies": [],
+        "monitored": true
+      }
+    ],
+    "install_set": [],
+    "conflicts": []
+  },
+  "system": [
+    {
+      "name": "VI Browser 2.0 toimages runner",
+      "source": "Repository Go code",
+      "path": ".github/labview/toimages/main.go",
+      "details": "Batch runner compiled from repo Go source; Linux uses the toimages GHCR image and Windows builds runner.exe in the workflow.",
+      "platforms": {
+        "windows": {
+          "present": true,
+          "label": "workflow-built"
+        },
+        "linux": {
+          "present": true,
+          "label": "toimages image"
+        }
+      }
+    },
+    {
+      "name": "lvctl render engine",
+      "source": "Repository Go code + embedded VIs",
+      "path": ".github/labview/toimages/_ni/labview/lvctl",
+      "details": "Renderer used by VI Browser 2.0 to drive LabVIEW and emit position-aware frame JSON.",
+      "platforms": {
+        "windows": {
+          "present": true,
+          "label": "workflow-built"
+        },
+        "linux": {
+          "present": true,
+          "label": "toimages image"
+        }
+      }
+    }
+  ],
+  "columns": [
+    {
+      "key": "windows",
+      "label": "Windows",
+      "platform": "windows",
+      "defaultTag": "latest",
+      "tag": "latest",
+      "ready": false,
+      "packages": [],
+      "failed_packages": [],
+      "nipkg_ready": false,
+      "nipkg_packages": [],
+      "labview_version": "",
+      "version": "latest"
+    },
+    {
+      "key": "linux",
+      "label": "Linux",
+      "platform": "linux",
+      "defaultTag": "latest",
+      "tag": "latest",
+      "ready": false,
+      "packages": [],
+      "failed_packages": [],
+      "nipkg_ready": false,
+      "nipkg_packages": [],
+      "labview_version": "",
+      "version": "latest"
+    }
+  ]
+}
