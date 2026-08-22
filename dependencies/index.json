@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "elijah286/LabVIEW-CLI-testing-DCOONS",
-  "sha": "dd4066fe69067195614c8dd2f6208b32be426571",
+  "sha": "b67dfe8c9243fdd5198634a93798e8a65eec6954",
   "revisions": [
+    {
+      "sha": "b67dfe8c9243fdd5198634a93798e8a65eec6954",
+      "short": "b67dfe8",
+      "message": "ci: adopt LabVIEW CI tooling v4.16.4 (full update)",
+      "author": "github-actions[bot]",
+      "date": "2026-08-22T16:04:01Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "dd4066fe69067195614c8dd2f6208b32be426571",
       "short": "dd4066f",
