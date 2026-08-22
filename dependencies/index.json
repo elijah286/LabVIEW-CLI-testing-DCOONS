@@ -499,7 +499,7 @@
     "column": "windows",
     "ready": true,
     "health": "",
-    "manifest_version": "win-dae347ce805c",
+    "manifest_version": "win-45030742b0ad",
     "files": [
       {
         "source_file": "src/QMH Demo.dragon",
@@ -585,7 +585,7 @@
       "nipkg_ready": true,
       "nipkg_packages": [],
       "labview_version": "2026",
-      "version": "win-dae347ce805c"
+      "version": "win-45030742b0ad"
     },
     {
       "key": "linux",
