@@ -1,8 +1,17 @@
 {
   "schema": 1,
   "repo": "elijah286/LabVIEW-CLI-testing-DCOONS",
-  "sha": "f8b73416f923ccdc215d76123f27b09c3737498d",
+  "sha": "c2813735101cfe4ec104e01ed40ad730ccd0dc5f",
   "revisions": [
+    {
+      "sha": "c2813735101cfe4ec104e01ed40ad730ccd0dc5f",
+      "short": "c281373",
+      "message": "ci: stamp dispatch-only workflows so GitHub registers them",
+      "author": "Elijah Kerry",
+      "date": "2026-08-23T13:39:29Z",
+      "project": false,
+      "dep_only": false
+    },
     {
       "sha": "f8b73416f923ccdc215d76123f27b09c3737498d",
       "short": "f8b7341",
