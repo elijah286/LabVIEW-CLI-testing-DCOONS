@@ -1,0 +1,58 @@
+[
+  {
+    "sha": "5617ee25f59fe66614e657ab2132fbe09bbb20c8",
+    "short": "5617ee2",
+    "message": "ci: adopt LabVIEW CI tooling v4.17.2 (full update)",
+    "author": "github-actions[bot]",
+    "date": "2026-08-23T23:31:31Z",
+    "vi_count": 19
+  },
+  {
+    "sha": "a06f762d966d52337ac81e0513f6f83bca63deea",
+    "short": "a06f762",
+    "message": "adding lunit unit test for easy verification",
+    "author": "daniel-coons",
+    "date": "2026-07-31T12:55:27-04:00",
+    "vi_count": 19
+  },
+  {
+    "sha": "9bf3ad4ad53a7ebbced533b062e4d6265990207c",
+    "short": "9bf3ad4",
+    "message": "updated main to add an a vip dependence and cleaned up the ui",
+    "author": "daniel-coons",
+    "date": "2026-07-31T12:45:41-04:00",
+    "vi_count": 16
+  },
+  {
+    "sha": "9efe7b222f99d668214eebcc40a5672032a1a8ca",
+    "short": "9efe7b2",
+    "message": "trigger actions",
+    "author": "daniel-coons",
+    "date": "2026-07-30T18:03:30-04:00",
+    "vi_count": 16
+  },
+  {
+    "sha": "2086fbb846b9057a5a238ca29a66eb81bd386fa6",
+    "short": "2086fbb",
+    "message": "updated main ui a teensy bit to kick off stuff",
+    "author": "daniel-coons",
+    "date": "2026-07-30T17:10:53-04:00",
+    "vi_count": 16
+  },
+  {
+    "sha": "4182a5291fb6f4454e457b9a013cbfbb52ab4ef4",
+    "short": "4182a52",
+    "message": "qmh demo code",
+    "author": "daniel-coons",
+    "date": "2026-07-30T16:00:49-04:00",
+    "vi_count": 16
+  },
+  {
+    "sha": "62a549e8096f170faf9b7d535e4cc6dca3983ea7",
+    "short": "62a549e",
+    "message": "Add LabVIEW CI pipeline",
+    "author": "Daniel Coons",
+    "date": "2026-07-30T14:51:24-05:00",
+    "vi_count": 0
+  }
+]
