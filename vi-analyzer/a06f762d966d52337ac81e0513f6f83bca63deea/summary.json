@@ -11,17 +11,17 @@
       "author": "daniel-coons",
       "date": "2026-07-31T12:55:27-04:00"
     },
-    "generated_utc": "2026-08-22 01:18 UTC",
-    "analysis_date": "Saturday, August 22, 2026 1:18:02 AM",
-    "duration": "00:01:37.28"
+    "generated_utc": "2026-08-24 15:56 UTC",
+    "analysis_date": "Monday, August 24, 2026 3:56:23 PM",
+    "duration": "00:01:35.85"
   },
   "summary": {
     "vis_analyzed": 37,
     "tests_run": 3847,
-    "passed": 3690,
-    "failed": 157,
+    "passed": 3692,
+    "failed": 155,
     "skipped": 0,
-    "findings": 41,
+    "findings": 39,
     "vis_with_findings": 15
   },
   "errors": {
@@ -56,12 +56,6 @@
       "vi_count": 3
     },
     {
-      "test": "Broken VI",
-      "severity": "correctness",
-      "count": 3,
-      "vi_count": 3
-    },
-    {
       "test": "Spell Check",
       "severity": "documentation",
       "count": 3,
@@ -72,6 +66,12 @@
       "severity": "documentation",
       "count": 2,
       "vi_count": 2
+    },
+    {
+      "test": "Broken VI",
+      "severity": "correctness",
+      "count": 1,
+      "vi_count": 1
     },
     {
       "test": "Comment Usage",
