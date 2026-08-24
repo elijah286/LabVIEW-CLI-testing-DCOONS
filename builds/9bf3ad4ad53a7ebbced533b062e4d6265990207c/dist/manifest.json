@@ -1,0 +1,23 @@
+{
+    "repo":  "elijah286/LabVIEW-CLI-testing-DCOONS",
+    "sha":  "9bf3ad4ad53a7ebbced533b062e4d6265990207c",
+    "ref":  "refs/heads/main",
+    "platform":  "windows",
+    "arch":  "AMD64",
+    "labview_version":  "LabVIEW 2026",
+    "built_at":  "2026-08-24T15:50:19Z",
+    "specs":  [
+                  {
+                      "project":  "src\\QMH Demo.lvproj",
+                      "name":  "Main Application",
+                      "type":  "EXE",
+                      "target":  "My Computer",
+                      "status":  "failed",
+                      "outputs":  [
+
+                                  ],
+                      "message":  "ExecuteBuildSpec exited 2",
+                      "duration":  32.3
+                  }
+              ]
+}
