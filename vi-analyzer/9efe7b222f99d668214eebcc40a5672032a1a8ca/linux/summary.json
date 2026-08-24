@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "sha": "9efe7b222f99d668214eebcc40a5672032a1a8ca",
+    "short": "9efe7b2",
+    "platform": "linux",
+    "repo": "elijah286/LabVIEW-CLI-testing-DCOONS",
+    "pages_url": "https://elijah286.github.io/LabVIEW-CLI-testing-DCOONS",
+    "pages_base": "../../..",
+    "commit": {
+      "message": "trigger actions",
+      "author": "daniel-coons",
+      "date": "2026-07-30T18:03:30-04:00"
+    },
+    "generated_utc": "2026-08-24 15:38 UTC",
+    "analysis_date": "Monday, August 24, 2026 03:38:50 PM",
+    "duration": "00:00:55.93"
+  },
+  "summary": {
+    "vis_analyzed": 34,
+    "tests_run": 3536,
+    "passed": 3391,
+    "failed": 145,
+    "skipped": 0,
+    "findings": 28,
+    "vis_with_findings": 12
+  },
+  "errors": {
+    "vi_not_loadable": 0,
+    "test_not_loadable": 0,
+    "test_not_runnable": 0,
+    "test_error_out": 0
+  },
+  "rule_counts": [
+    {
+      "test": "Enabled Debugging",
+      "severity": "performance",
+      "count": 12,
+      "vi_count": 12
+    },
+    {
+      "test": "Approved Bookmark Tags",
+      "severity": "style",
+      "count": 5,
+      "vi_count": 1
+    },
+    {
+      "test": "Wires Under Objects",
+      "severity": "style",
+      "count": 5,
+      "vi_count": 1
+    },
+    {
+      "test": "Wire Bends",
+      "severity": "style",
+      "count": 3,
+      "vi_count": 3
+    },
+    {
+      "test": "Diagram Size",
+      "severity": "style",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Error Cluster Wired",
+      "severity": "correctness",
+      "count": 1,
+      "vi_count": 1
+    },
+    {
+      "test": "Reentrant VI Issues",
+      "severity": "correctness",
+      "count": 1,
+      "vi_count": 1
+    }
+  ]
+}
