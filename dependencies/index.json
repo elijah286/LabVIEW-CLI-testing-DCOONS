@@ -544,7 +544,7 @@
     "column": "windows",
     "ready": true,
     "health": "",
-    "manifest_version": "win-9e4804f3b56c",
+    "manifest_version": "win-61b3ead276e8",
     "files": [
       {
         "source_file": "src/QMH Demo.dragon",
@@ -1263,6 +1263,10 @@
           "version": "26.3.1.49171-0+f19"
         },
         {
+          "name": "ni-labview-2026-core-en",
+          "version": "26.3.2.49153-0+f1"
+        },
+        {
           "name": "ni-labview-2026-coreother",
           "version": "26.3.0.49792-0+f640"
         },
@@ -1319,10 +1323,18 @@
           "version": "26.3.1.49171-0+f19"
         },
         {
+          "name": "ni-labview-2026-runtime-engine",
+          "version": "26.3.2.49153-0+f1"
+        },
+        {
           "name": "ni-labview-2026-runtime-engine-resource",
           "version": "26.3.0.49794-0+f642"
         },
         {
+          "name": "ni-labview-2026-runtime-engine-resource",
+          "version": "26.3.2.49153-0+f1"
+        },
+        {
           "name": "ni-labview-2026-runtime-engine-resource-x64",
           "version": "26.3.0.49794-0+f642"
         },
@@ -1331,12 +1343,20 @@
           "version": "26.3.1.49171-0+f19"
         },
         {
+          "name": "ni-labview-2026-runtime-engine-resource-x64",
+          "version": "26.3.2.49153-0+f1"
+        },
+        {
           "name": "ni-labview-2026-runtime-engine-x86",
           "version": "26.3.0.49794-0+f642"
         },
         {
           "name": "ni-labview-2026-runtime-engine-x86",
           "version": "26.3.1.49171-0+f19"
+        },
+        {
+          "name": "ni-labview-2026-runtime-engine-x86",
+          "version": "26.3.2.49153-0+f1"
         },
         {
           "name": "ni-labview-2026-scripting-codegen",
@@ -2960,7 +2980,7 @@
         }
       ],
       "labview_version": "2026",
-      "version": "win-9e4804f3b56c"
+      "version": "win-61b3ead276e8"
     },
     {
       "key": "linux",
